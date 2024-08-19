@@ -10,24 +10,24 @@ Este proyecto permite traducir texto desde inglés a otros idiomas y reproducir 
 ## Instalación
 
 1. **Clona el repositorio**:
-   
-bash
+
+   ```bash
    git clone https://github.com/tu-usuario/audio-translate.git
    cd audio-translate
 
 2. **Crea un entorno virtual y actívalo:**
 bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # En Windows: venv\Scripts\activate
 3. **Instala las dependencias:**
-   
-bash
+   ```bash
    pip install deep-translator gtts
 
 ## Uso
 
 1. Ejecuta el script main.py:
-   '''bash
+   ```bash
    python main.py
    
 2. Sigue las instrucciones en la consola:
@@ -40,8 +40,9 @@ El script traducirá el texto y reproducirá la traducción en voz.
 La reproducción del audio usa afplay en macOS. Asegúrate de que afplay esté disponible en tu sistema.
 Si estás en un sistema diferente, como Linux o Windows, puedes necesitar ajustar el comando para reproducir el archivo MP3 (por ejemplo, usar mpg321 en Linux o el reproductor de audio predeterminado en Windows).
 Ejemplo
-    '''Introduce el texto en inglés que deseas traducir:
-    hello
-    ¿A qué idioma quieres traducirlo? (es para español, en para inglés, fr para francés, etc.)
-    es
-    Texto traducido: hola
+   ```bash
+   Introduce el texto en inglés que deseas traducir:
+   hello
+   ¿A qué idioma quieres traducirlo? (es para español, en para inglés, fr para francés, etc.)
+   es
+   Texto traducido: hola
